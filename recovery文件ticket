@@ -1,0 +1,15 @@
+这是来公司的第一个任务，试用期时做的，时间有点久了，根据收藏夹里的网页
+1）接触sqlite3数据库。与学校里用的postgresql很像，数据库语法基本相同，重点是数据库和C++的结合。
+   sqlite3_open()、sqlite3_exec()和sqlite3_close()等
+
+2）sqlite3数据库错误码（不用记，了解方便debug）
+
+3）sqlite3中的blob数据类型    https://blog.csdn.net/u014337397/article/details/80603510
+   我是为了存储序列化的数据，但blob不仅仅可以存储序列化数据。当时一直看不到输出的序列化数据的结果还以为出错了，序列化数据结果就是不能显示出来。
+   blob类型需要sqlite中特定的语句来帮忙赋值读写
+  
+4）void*的理解     https://www.runoob.com/w3cnote/c-void-intro.html
+   当时为了copy一段数据使用的，复习一下
+   
+5）C++中强制类型转换
+   static_cast、dynamic_cast、const_cast和reinterpret_cast
