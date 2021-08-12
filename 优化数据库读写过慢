@@ -1,0 +1,8 @@
+这是在解决优化数据库读写过慢过程中看的相关资料
+1）提升sqlite3数据库插入效率低，速度慢的方法：https://blog.csdn.net/majiakun1/article/details/46607163   （事务+关闭写同步+执行准备）
+2）I/O的一些基础知识复习：
+      https://www.iteye.com/blog/gengu-1165022
+      https://zhidao.baidu.com/question/5306747.html
+      https://blog.csdn.net/cc_net/article/details/10439665    （存储器与I/O设备及总线、存储器层次结构等）
+   控制I/O设备与内存/CPU的数据传输方式：a、程序直接控制方式；b、中断方式；c、DMA方式；d、I/O通道方式
+   
