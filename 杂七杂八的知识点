@@ -1,3 +1,6 @@
 工作中遇到的一些杂七杂八的问题
 1）gdb    http://c.biancheng.net/view/8153.html
 工作环境是linux，经常需要用到gdb来分步调试、跟踪程序进程等。就我的岗位而言，经常用到的命令包括设置断点、切换线程、查看变量值和查看程序堆栈等。
+
+2）序列化数据   https://cloud.tencent.com/developer/article/1176660
+简单点说，序列化数据是为了方便数据的存储和传输而生成的一种数据格式。我司使用的是Google的protobuf，还是比较简单的
