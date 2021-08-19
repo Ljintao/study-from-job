@@ -1,2 +1,5 @@
 1）将某一分支的指定commit合并到另一分支：https://blog.csdn.net/qq_37820580/article/details/109117368   （git cherry-pick）  P.S 我最后还是不会，淦
+
 2）多人合作开发同一分支问题：https://blog.csdn.net/azureternite/article/details/76154807   （git fetch + git rebase）
+
+3）项目开发到一半需要做别的，需要提交指定文件：https://www.jianshu.com/p/14afc9916dcb  （git stash/git stash pop）
